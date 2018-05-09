@@ -1,12 +1,11 @@
 #  Helm chart Sonarr
-Simply run :  
-`helm install sonarr `
+Simply run :  `helm install sonarr`
+
 Default value can be found in values.yml
 
 ## Override default values
 
-In order to run it with your variables create a values.yml file then run :  
-`helm install -f ./values.yml sonarr`
+In order to run it with your variables create a values.yml file then run `helm install -f ./values.yml sonarr`
 
 At least you should have :  
 
