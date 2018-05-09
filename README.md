@@ -12,7 +12,7 @@ TZ : Europe/Paris
 PUID/PGID : 1005  
 
 
-In order to run it with your variables create a values.yml file then run :
+In order to run it with your variables create a values.yml file then run :  
 helm install -f ./values.yml sonarr
 
 At least you should have :  
