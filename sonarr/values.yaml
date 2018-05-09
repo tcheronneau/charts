@@ -30,12 +30,12 @@ volumes:
     path: /opt/sonarr
     containerPath: /config
   - name: data
-    type: PVC
-    path: naseries
+    type: host 
+    path: /data
     containerPath: /data
   - name: download
-    type: PVC
-    path: kevinnfs
+    type: host
+    path: /download
     containerPath: /download
 
 volume:
