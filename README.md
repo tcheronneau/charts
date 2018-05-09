@@ -6,5 +6,5 @@ Add the repo by running : ` helm repo add charts https://tcheronneau.github.io/c
 
 # First chart:  Sonarr
 
-Docs : https://github.com/tcheronneau/charts/tree/master/sonarr/README.md
+Information and documentation can be found : https://github.com/tcheronneau/charts/tree/master/sonarr/
 
