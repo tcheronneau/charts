@@ -3,11 +3,20 @@ entries:
   sonarr:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-05-09T11:53:59.036120574+02:00
+    created: 2018-05-09T13:45:42.105861123+02:00
+    description: A Helm chart for Kubernetes
+    digest: 814550c081e1bf24d0a34ca76595edaea97cad05833b7736d73261ad7822a9aa
+    name: sonarr
+    urls:
+    - https://tcheronneau.github.io/charts/sonarr-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: 2018-05-09T13:45:42.103569669+02:00
     description: A Helm chart for Kubernetes
     digest: b36f969e0d9a4cbafdd65eeda518fea7d86d199d2270ca20c6321974dd5f441d
     name: sonarr
     urls:
     - https://tcheronneau.github.io/charts/sonarr-0.1.0.tgz
     version: 0.1.0
-generated: 2018-05-09T11:53:59.032948797+02:00
+generated: 2018-05-09T13:45:42.100113564+02:00
