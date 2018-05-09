@@ -2,10 +2,14 @@
 Helm charts for LinuxServer docker image
 
 # First chart:  Sonarr
-You can deploy it by running :
+You can deploy it by running :  
 helm repo add charts https://tcheronneau.github.io/charts
 
-Then simply run : helm install sonarr
+Then simply run :  
+helm install sonarr
+
+
+## Override default values
 
 Default parameters :  
 TZ : Europe/Paris  
@@ -43,3 +47,9 @@ You can also specify persistentVolumeClaim for volumes like this :
         type: PVC
         path: PVCNAME
         containerPath: /data
+        
+For env values : 
+
+    env:
+      - name: TZ
+        value: Europe/Paris
