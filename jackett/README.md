@@ -24,10 +24,10 @@ At least you should have :
 You can also specify persistentVolumeClaim for volumes like this :
 
     volumes:
-      - name: data
+      - name: config
         type: PVC
         path: PVCNAME
-        containerPath: /data
+        containerPath: /config
         
 For env values : 
 
