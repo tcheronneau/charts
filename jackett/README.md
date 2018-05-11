@@ -19,23 +19,15 @@ At least you should have :
         type: host
         path: /opt/jackett
         containerPath: /config
-      - name: data
-        type: host
-        path: /data
-        containerPath: /data
-      - name: download
-        type: host
-        path: /download
-        containerPath: /download
 
 
 You can also specify persistentVolumeClaim for volumes like this :
 
     volumes:
-      - name: data
+      - name: config
         type: PVC
         path: PVCNAME
-        containerPath: /data
+        containerPath: /config
         
 For env values : 
 
