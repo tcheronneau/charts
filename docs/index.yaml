@@ -1,9 +1,19 @@
 apiVersion: v1
 entries:
+  jackett:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: 2018-05-11T11:08:01.337157516+02:00
+    description: A Helm chart for Kubernetes
+    digest: 18739e8b9893a7efddcf8a49fbf55a375cf4b9fd660fe7ff0a7dc583c9e657b0
+    name: jackett
+    urls:
+    - https://tcheronneau.github.io/charts/jackett-0.1.0.tgz
+    version: 0.1.0
   radarr:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-05-09T16:27:34.46221097+02:00
+    created: 2018-05-11T11:08:01.339209015+02:00
     description: A Helm chart for Kubernetes
     digest: 7547a5095603ba645bcc1ac4da75e90b5979ea512492e584b0f3e63b6f7ea891
     name: radarr
@@ -13,7 +23,7 @@ entries:
   sonarr:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-05-09T16:27:34.465838497+02:00
+    created: 2018-05-11T11:08:01.342978806+02:00
     description: A Helm chart for Kubernetes
     digest: 814550c081e1bf24d0a34ca76595edaea97cad05833b7736d73261ad7822a9aa
     name: sonarr
@@ -22,11 +32,11 @@ entries:
     version: 0.1.1
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-05-09T16:27:34.463932127+02:00
+    created: 2018-05-11T11:08:01.341121443+02:00
     description: A Helm chart for Kubernetes
     digest: b36f969e0d9a4cbafdd65eeda518fea7d86d199d2270ca20c6321974dd5f441d
     name: sonarr
     urls:
     - https://tcheronneau.github.io/charts/sonarr-0.1.0.tgz
     version: 0.1.0
-generated: 2018-05-09T16:27:34.461640423+02:00
+generated: 2018-05-11T11:08:01.33442178+02:00
