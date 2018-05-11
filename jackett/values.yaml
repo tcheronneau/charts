@@ -1,17 +1,17 @@
-# Default values for radarr.
+# Default values for jackett.
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
 
 replicaCount: 1
 
 image:
-  repository: linuxserver/radarr
+  repository: linuxserver/jackett
   tag: latest
   pullPolicy: Always
 
 service:
   name: "http"
-  port: 7878 
+  port: 9117 
   protocol: TCP
 
 env:
@@ -25,18 +25,10 @@ env:
 healthcheck: false
 
 volumes:
-  - name: radarr-config
+  - name: jackett-config
     type: host
-    path: /opt/radarr
+    path: /opt/jackett
     containerPath: /config
-  - name: data
-    type: host 
-    path: /data
-    containerPath: /data
-  - name: download
-    type: host
-    path: /download
-    containerPath: /download
 
 
 ingress:
@@ -46,7 +38,7 @@ ingress:
     # kubernetes.io/tls-acme: "true"
   path: /
   hosts:
-    - radarr.mcth.fr
+    - jackett.mcth.fr
   tls: []
   #  - secretName: chart-example-tls
   #    hosts:

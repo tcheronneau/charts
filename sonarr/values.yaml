@@ -38,14 +38,6 @@ volumes:
     path: /download
     containerPath: /download
 
-volume:
-  configPath: "/opt/sonarr"
-  configType: host
-  downloadPath: kevinnfs
-  downloadType: PVC
-  dataPath: naseries
-  dataType: PVC
-
 
 ingress:
   enabled: true
